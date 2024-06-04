@@ -31,7 +31,7 @@ else if(guess!== secretNumber){
     document.querySelector('score').textContent=score
 }
     else{
-        displayMessage('💥 You lost the game!');
+        displayMessage('💥 You lost the game!!');
         document.querySelector('.score').textContent = 0;
     }
 }
